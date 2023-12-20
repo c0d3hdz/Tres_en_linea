@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" />
+    <title>Tres en Linea</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1 class="titulo">Tres en Linea</h1>
+
+    <div id="turnos"></div>
+    <div class="content">
+        <div id="tabla"></div>
+        <div class="tablero">
+            <div class="cell" onclick="marcar(0, 0)"></div>
+            <div class="cell" onclick="marcar(0, 1)"></div>
+            <div class="cell" onclick="marcar(0, 2)"></div>
+            <div class="cell" onclick="marcar(1, 0)"></div>
+            <div class="cell" onclick="marcar(1, 1)"></div>
+            <div class="cell" onclick="marcar(1, 2)"></div>
+            <div class="cell" onclick="marcar(2, 0)"></div>
+            <div class="cell" onclick="marcar(2, 1)"></div>
+            <div class="cell" onclick="marcar(2, 2)"></div>
+        </div>
+        <button onclick="limpiar()" class="limpiar">Reiniciar</button>
+    </div>
+    <script src="funciones.js"></script>
+</body>
+
+</html>
