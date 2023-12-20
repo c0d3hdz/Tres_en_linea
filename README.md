@@ -1,0 +1,3 @@
+Proyecto basico a base de Java Scrip y HTML 
+➡️ puedes ver como funciona [aqui](https://github.com/c0d3hdz/Tres_en_linea).
+by:c0d3 😄
